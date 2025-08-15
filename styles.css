@@ -448,34 +448,6 @@ body {
     }
 }
 
-/* Dark mode support */
-@media (prefers-color-scheme: dark) {
-    .container {
-        background: #2d3748;
-        color: #e2e8f0;
-    }
-    
-    .config-section, .solution-section {
-        background: #4a5568;
-    }
-    
-    .team-row, .gap-analysis {
-        background: #2d3748;
-        border: 1px solid #4a5568;
-    }
-    
-    .form-input, .form-select {
-        background: #2d3748;
-        border-color: #4a5568;
-        color: #e2e8f0;
-    }
-    
-    .timeline-header, .timezone-label {
-        background: #2d3748;
-        color: #e2e8f0;
-    }
-}
-
 /* Print styles */
 @media print {
     body {
