@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>24/7 Support Coverage Analyzer</title>
+    <meta name="description" content="Analyze timezone coverage across global support teams with real-time visualization">
+    <meta name="keywords" content="timezone, support, coverage, analysis, global, teams">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌍</text></svg>">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>24/7 Support Coverage Analyzer</h1>
+            <p style="margin: 10px 0 0 0; opacity: 0.9;">Optimize your global team coverage across timezones</p>
+        </div>
+        
+        <div class="content">
+            <div class="config-section">
+                <div class="config-title">
+                    <span>Team Configuration</span>
+                    <button class="add-btn" onclick="addTeamRow()">+ Add Team</button>
+                </div>
+                
+                <div class="form-header">
+                    <div class="header-label">Region</div>
+                    <div class="header-label">Timezone</div>
+                    <div class="header-label">Start Time</div>
+                    <div class="header-label">End Time</div>
+                    <div class="header-label">Staff</div>
+                    <div class="header-label"></div>
+                </div>
+                
+                <div class="team-form" id="teamForm">
+                    <!-- Team rows will be generated here -->
+                </div>
+                
+                <div id="error-display"></div>
+            </div>
+            
+            <div id="chart-container">
+                <!-- Chart will be generated here -->
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Built with ❤️ for global support teams | 
+           <a href="https://github.com/yourusername/24-7-coverage-analyzer" target="_blank">View on GitHub</a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
